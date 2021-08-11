@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+#content {
+    background: #F3FDE4 !important;
+}
+
+.backdrop {
+    background: linear-gradient(90deg, rgba(253, 183, 33, 1) 10%, rgba(243, 253, 228, 1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.crane {
+    height: 60vh;
+    width: 44vw;
+    margin-top: 90px;
+}
+
+.head-div {
+    font-family: 'Lora';
+    font-weight: bold;
+    font-size: 25px;
+    color: #F3FDE4;
+    line-height: 1;
+}
+
+/* main */
+
+.about-main h1 {
+    font-size: 50px;
+    color: #0564b5;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    margin: 0px;
+}
+
+.about-main hr {
+    width: 20%;
+    margin: 0 auto;
+    height: 3px;
+    background: #ffb311;
+}
+@font-face {
+    font-family: "AboutusFont";
+    src: url("../fonts/Lora/leelawad.ttf");
+}
+.class1 {
+    font-size: 18px;
+    font-family: 'AboutusFont';
+
+    font-weight: bold;
+}
+
+.class2 {
+    font-size: 16px;
+    font-family: 'AboutusFont';
+}
+
+/* core values */
+
+.core-values {
+    padding: 50px;
+    background: linear-gradient(90deg, #e4fbc2 10%, #f3fde4 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.core-values h1 {
+    font-size: 50px;
+    color: #ffb311;
+    font-family: 'Lobster Two', cursive;
+    text-align: center;
+    margin: 0px;
+}
+
+.core-values hr {
+    width: 15%;
+    margin: 0 auto;
+    height: 3px;
+    background: #0564b5;
+}
+
+#circle {
+    background-image: radial-gradient(circle, #ffb311, #ffb311 66%, transparent 66%);
+    height: 5em;
+    width: 5em;
+    margin: 0 auto;
+}
+
+.core-values .row {
+    padding: 30px 0 30px 0;
+}
+
+.values {
+    font-family: 'Leelawadi UI';
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.bold {
+    font-size: 25px;
+    font-family: 'Leelawadi UI';
+    color: #0564b5;
+}
+
+@media screen and (max-width:725px) and (min-width:427px) {
+    .head-div {
+        font-size: 19px;
+        line-height: 1;
+    }
+    .crane {
+        height: 35vh;
+        width: 50vw;
+        margin-top: 140px;
+    }
+    .about-main h1 {
+        font-size: 25px;
+    }
+    .class1 {
+        font-size: 11px;
+    }
+    .class2 {
+        font-size: 10px;
+    }
+    .core-values h1 {
+        font-size: 25px;
+    }
+    .core-values hr {
+        height: 1px;
+    }
+    .about-main hr {
+        height: 1px;
+    }
+    .values {
+        font-size: 10px;
+    }
+    .bold {
+        font-size: 12.5px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .head-div {
+        font-size: 19px;
+        line-height: 0.9;
+    }
+    .crane {
+        height: 29vh;
+        width: 50vw;
+        margin-top: 140px;
+    }
+    .about-main h1 {
+        font-size: 25px;
+    }
+    .class1 {
+        font-size: 11px;
+    }
+    .class2 {
+        font-size: 10px;
+    }
+    .core-values h1 {
+        font-size: 25px;
+    }
+    .core-values hr {
+        height: 1px;
+    }
+    .about-main hr {
+        height: 1px;
+    }
+    .values {
+        font-size: 10px;
+    }
+    .bold {
+        font-size: 12.5px;
+    }
+    .core-values {
+        padding: 20px;
+    }
+}

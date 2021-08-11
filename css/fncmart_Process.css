@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+
+.Process_heading h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Lobster two';
+    color: #027cd6;
+    font-size: 69pt;
+}
+
+.Process_heading hr{
+    width: 10%;
+    margin-left: 45%;
+    border: 0px !important;
+    margin-top: -10px !important;
+    border-bottom: 3px solid #fdb721 !important;
+}
+
+.Process_heading h2{
+    font-weight: 150 !important;
+    text-align: center;
+    color: #027cd6;
+    text-transform: uppercase;
+    font-family: 'Microsoft Sans', serif;
+    font-size: 35pt;
+    margin-top: 15px;
+}
+.Process_content{
+    margin-top: 25px;
+    font-family: 'Leelawade UI';
+    font-size: 18pt;
+
+}
+.Process_content h2{
+    font-size: 3rem !important;
+    text-align: center;
+}
+
+@media (min-width:1024px) and (max-width:1440px){
+    .Process_heading h1{
+        font-size: 65px;
+    }
+    .Process_heading h2{
+        font-size: 30px;
+    }
+    .Process_content{
+        font-family: 16pt;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .Process_heading h1{
+        font-size: 65px;
+    }
+    .Process_heading h2{
+        font-size: 30px;
+    }
+    .Process_content{
+        font-size: 16pt;
+    }
+}
+@media (min-width:550px) and (max-width:768px){
+    .Process_heading h1{
+        font-size: 40px;
+    }
+    .Process_heading h2{
+        font-size: 16px;
+    }
+    .Process_content{
+        font-size: 14pt;
+    }
+}
+@media (max-width:550px){
+    .Process_heading h1{
+        font-size: 32px;
+    }
+    .Process_heading h2{
+        font-size: 13px;
+    }
+    .Process_content{
+        font-size: 12pt;
+    }
+}

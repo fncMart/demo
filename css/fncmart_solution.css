@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+
+.solution_heading{
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Microsoft Sans', serif;
+}
+.solution_heading h1{
+    font-size: 3.5rem !important;
+    color: #027cd6;
+}
+.solution_heading hr{
+    width: 24%;
+    margin-left: 38%;
+    border: 0px !important;
+    margin-top: -10px !important;
+    border-bottom: 3px solid #fdb721 !important;
+}
+
+.solution_Keys{
+    padding: 70px 100 !important;
+}
+.solution_Keys .card{
+    max-height: 435px !important;
+    min-height: 435px !important;
+}
+.col-lg-3{
+    padding: 0 !important;
+}
+
+.solution-card-title{
+    text-align: center;
+    font-family: 'Microsoft Sans' , serif;
+    font-size: 22pt;
+    border: 1px solid #191919;
+    border-radius: 1.25rem !important;
+    margin: -20px 30px 30px 30px;
+    color: #027cd6;
+    background-color: #e4fbc2;
+    padding: 5px;
+}
+
+.solution_Keys .card-text {
+    text-align: left !important;
+    padding: 0 30px 30px 30px;
+    font-family: 'Leelawade UI';
+    font-size: 14pt;
+}
+
+.card-deck .card{
+    background-color: #f2fde4 !important;
+    margin-top: 10px !important;
+}
+
+.card-img-top-1{
+    height: 150px !important;
+}
+.solution_Keys div:nth-child(3) .card-img-top-1{
+    height: 120px !important; 
+    margin-top: 30px;
+}
+@media (min-width:1345px){
+    
+    .solution-card-title{
+        font-size: 18pt;
+    }
+    .solution_Keys .card-text{
+        font-size: 12pt;
+    }
+}
+@media (min-width: 1032px) and (max-width: 1345px){
+    
+    .solution-card-title{
+        font-size: 14pt;
+    }
+    .solution_Keys .card-text{
+        font-size: 10pt;
+    }
+}
+
+@media (min-width:992px) and (max-width:1032px){
+    .solution_Keys .card{
+        min-height: 450px !important;
+        max-height: 450px !important;
+    }
+    .solution-card-title{
+        font-size: 14pt;
+    }
+    .solution_Keys .card-text{
+        font-size: 10pt;
+    }
+    .card-img-top-1 {
+        height: 115px !important;
+    }
+    .solution_Keys div:nth-child(3) .card-img-top-1 {
+        height: 84px !important;
+        margin-top: 30px;
+    }
+}
+@media (min-width:820px) and (max-width:992px){
+    .solution_Keys .card{
+        margin-bottom: 15px !important;
+    }
+}
+
+@media (min-width:768px) and  (max-width:820px){
+    .solution_Keys .card{
+        margin-bottom: 15px !important;
+    }
+    .solution-card-title{
+        font-size: 18px;
+    }
+    .solution_Keys .card-text{
+        font-size: 14px;
+    }
+}
+@media (min-width:490px) and (max-width:768px){
+    .card-img-top-1 {
+        height: 150px !important;
+    }
+    .solution-card-title {
+        font-size: 22pt;
+    }
+    .solution_Keys .card-text{
+        font-size: 14pt;
+    }
+    .solution_Keys .card {
+        max-height: 485px !important;
+        min-height: 485px !important;
+    }
+}
+@media (min-width:375px) and (max-width:490px){
+    .solution-card-title{
+        font-size: 14px;
+    }
+    .solution_Keys .card-text{
+        font-size: 12px;
+    }
+    .card-img-top-1{
+        height: 110px !important;
+    }
+    .solution_Keys div:nth-child(3) .card-img-top-1 {
+        height: 90px !important;
+    }
+}
+
+@media (min-width:320px) and (max-width:375px){
+    .solution-card-title{
+        font-size: 10pt;
+    }
+    .solution_Keys .card-text{
+        font-size: 10pt;
+    }
+   
+  
+    .solution_Keys div:nth-child(3) .card-img-top-1{
+        height: 65px !important;
+    }
+    .card-img-top-1{
+        height: 80px !important;
+    }
+}

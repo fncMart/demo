@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+
+.stakeholder_heading h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Lobster two';
+    color: #fdb721;
+    font-size: 69pt;
+}
+.stakeholder_heading h2{
+    font-weight: 150 !important;
+    text-align: center;
+    color: #027cd6;
+    text-transform: uppercase;
+    font-family: 'Microsoft Sans', serif;
+    font-size: 35pt;
+    margin-top: 15px;
+}
+.stakeholder_heading hr{
+    width: 28%;
+    margin-left: 36%;
+    border: 0px !important;
+    margin-top: -10px !important;
+    border-bottom: 3px solid #027cd6 !important;
+}
+.stakeholders_list{
+    margin-top: 100px;
+    font-family: 'Microsoft Sans', serif;
+    text-align: center;
+
+}
+.stakeholders_list .card{
+    max-height: 450px;
+    min-height: 450px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.stakeholders_list .card .card-heading{
+    text-align: center;
+    font-family: 'Microsoft Sans' , serif;
+    font-size: 22pt;
+    border: 1px solid #191919;
+    border-radius: 1.25rem !important;
+    margin: -25px 50px 30px 50px;
+    color: #027cd6;
+    background-color: #e4fbc2;
+    padding: 5px;
+}
+
+.stakeholders_list .card .card-img{
+    height: 150px !important;
+    width: 296px !important;
+    margin: 30px auto;
+}
+
+.stakeholders_list .card .card-text{
+    text-align: left !important;
+    padding: 0 30px 30px 30px;
+    font-family: 'Leelawade UI';
+    font-size: 14pt;
+}
+.video-background{
+    background-image: url("../img/Path\ 8285.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-position: left top;
+    padding: 50px;
+}
+.video-container{
+    padding: 100px 0;
+    height: 100%;
+    width: 100%;
+}
+
+.video-container iframe{
+    height: 100%;
+    width: 100%;
+}
+@media (min-width:992px) and (max-width:1200px){
+    .stakeholders_list .card{
+        margin: auto;
+    }
+    .stakeholders_list .card .card-heading{
+        font-size: 18pt;
+    }
+    .stakeholders_list .card .card-img{
+        height: 120px !important;
+        width: 230px !important;
+        margin: 30px auto;
+    }
+    .stakeholders_list .card .card-text{
+        font-size: 12pt;
+    }
+}
+@media (min-width:570px) and (max-width:992px){
+    .stakeholder_heading h1{
+        font-size: 42pt;
+    }
+    .stakeholder_heading h2{
+        font-size: 24pt;
+    }
+    .stakeholders_list .card{
+        margin: auto;
+    }
+    .stakeholders_list .card{
+        margin-bottom: 25px !important;
+    }
+}
+@media (min-width:422px) and (max-width:570px){
+    .stakeholder_heading h1{
+        font-size: 28pt;
+    }
+    .stakeholder_heading h2{
+        font-size: 20pt;
+    }
+    .stakeholders_list .card {
+        margin: auto;
+        max-height: 300px;
+        min-height: 300px;
+    }
+    .stakeholders_list .card{
+        margin-bottom: 35px !important;
+    }
+    .stakeholders_list .card .card-heading{
+        font-size: 8pt;
+        margin: -15px 50px 30px 50px;
+    }
+    .stakeholders_list .card .card-img{
+        height: 96px !important;
+        width: 160px !important;
+        margin-top: 10px !important;
+    }
+    .stakeholders_list .card .card-text{
+        font-size: 10pt;
+    }
+}
+@media (max-width:422px){
+    .stakeholder_heading h1{
+        font-size: 22pt;
+    }
+    .stakeholder_heading h2{
+        font-size: 14pt;
+    }
+    .stakeholders_list .card {
+        margin: auto;
+        max-height: 300px;
+        min-height: 300px;
+    }
+    .stakeholders_list .card{
+        margin-bottom: 35px !important;
+    }
+    .stakeholders_list .card .card-heading{
+        font-size: 8pt;
+        margin: -15px 50px 30px 50px;
+    }
+    .stakeholders_list .card .card-img{
+        height: 96px !important;
+        width: 160px !important;
+        margin-top: 10px !important;
+    }
+    .stakeholders_list .card .card-text{
+        font-size: 10pt;
+    }
+}

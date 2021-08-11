@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Playfair+Display+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,600&display=swap');
+
+
+.container .row{
+    text-align: center;
+}
+.sec-title{
+    position:relative;
+    z-index:1;
+    margin-bottom:65px;
+}
+
+.sec-title .title{
+    position:relative;
+    font-weight:700;
+    margin-bottom:12px;
+    text-transform:capitalize;
+    font-family: 'Playfair Display SC', serif;
+}
+.sec-title.centered{
+    text-align: center !important;
+}
+
+.sec-title h2{
+    position:relative;
+    color:#222222;
+    font-weight:700;
+    font-size:26px;
+    line-height:1.2em;
+    margin-top:15px;
+    font-family: 'Lora', serif;
+}
+
+.team .row .col{
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.card{
+    font-family: 'Lora', serif;
+    width: 300px;
+    height: 340px;
+    background-color: transparent !important;
+    perspective: 1000px;
+    text-align: center;
+    padding-top: 10px;
+    border: none !important;
+    cursor: pointer;
+}
+
+.card .card-inner{
+    text-align: center;
+    position: relative;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.card:hover .card-inner{
+    transform: rotateY(180deg);
+}
+.card:hover .card-inner .card-front .team-block{
+    display: none;
+}
+.card-front, .card-back {
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card-back {
+    transform: rotateY(180deg);
+}
+.card img{
+    height: 250px;
+    width: 250px;
+}
+.card .card-inner .card-back img{
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.modal{
+  display: none; 
+  position: fixed; 
+  z-index: 9999999; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+  overflow-y: hidden ;
+  font-family: 'Lora', serif;
+}
+.content{
+    font-family: 'Lora', serif;
+    margin-left: 10vw;
+    height: 80vh;
+    width: 80vw;
+    background-color: white;
+}
+.content img{
+    height: 250px !important;
+    width: 250px !important;
+}
+.content .close{
+    cursor: pointer;
+    size: 25px;
+    border: 1px solid black;
+    padding: 10px;
+    height: 45px;
+    margin-right: 0;
+}
+.content .text{
+    margin: 50px 20px;
+    color: black;
+}
+.content .text h3{
+    font-weight: 700;
+}
+.content .text ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.content ul li{
+    margin: 10px;
+}
+.content .text p{
+    margin-top: 20px;
+}
+.show{
+    display: block !important;
+}
+.fab{
+    color: black !important;
+}
+
+
+@media (max-width:426px) {
+    .modal{
+        overflow: scroll !important; 
+    }
+    .modal-body{
+        display: block !important;
+    }
+    .content{
+        display: block !important;
+        height: auto !important;
+        width: 300px !important;
+    }
+    .content .close{ 
+        position: absolute;
+        top: 100px;
+        left: 305px;
+    }
+}
+
+@media (min-width: 426px) and (max-width:580px){
+    .modal{
+        overflow: scroll !important; 
+    }
+    .modal-body{
+        display: block !important;
+    }
+    .content{
+        display: block !important;
+        height : auto !important;
+        width: 425px !important;
+        margin: auto !important;
+    }
+    .content .text p{
+        font-size: 12px;
+    }
+    .content .close{ 
+        position: absolute;
+        top: 98px;
+        left: 480px;
+    }
+}
+@media (min-width:580px) and (max-width:768px){
+    .modal{
+        overflow: scroll !important; 
+    }
+    .content{
+        display: block !important;
+        height : auto !important;
+        width: 530px !important;
+        margin: auto !important;
+    }
+    .content img{
+        width: 250px !important;
+        height: auto !important;
+    }
+    .content .text p{
+        font-size: 14px;
+    }
+    .content .close{ 
+        position: absolute;
+        top: 100px;
+        left: 531px;
+    }
+}
+@media (min-width:768px) and (max-width:1024px){
+    .modal{
+        overflow: scroll !important; 
+    }
+    .content{
+        display: block !important;
+        height : auto !important;
+        width: 700px !important;
+        margin: auto !important;
+    }
+    .content img{
+        width: 250px !important;
+        height: auto !important;
+    }
+    .content .text p{
+        font-size: 14px;
+    }
+    .content .close{
+        position: absolute;
+        top: 100px;
+        left: 825px;
+    }
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+
+/* Navbar section */
+
+.nav {
+    z-index: 99999999;
+    width: 100%;
+    height: 70px;
+    width: 100vw;
+    line-height: 55px;
+    text-align: center;
+    background-image: linear-gradient(to right, #ffb311 , #fb6806);
+    font-family: 'Microsoft Sans', serif;
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    top:0;
+}
+
+.nav-list{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    height: 70px;
+    margin-left: auto;
+    width: calc(50vw - 350px) !important;
+    justify-content: space-around;
+}
+.nav-list li{
+    padding: 10px;
+}
+.nav-list li a{
+    font-size: 16pt;
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:hover{
+    text-decoration: none;
+    color: white;
+}
+.nav-list li a:visited{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    margin-left: 70px;
+    height: 70px;
+    width: 250px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.hamburger .line1, .line3{
+    width: 30px;
+    height:3px;
+    background: black;
+    margin: 5px;
+    transition: all 0.3s ease;
+    margin-left: 20px;
+}
+.hamburger .line2{
+    width: 30px;
+    height:3px;
+    background: green;
+    margin: 5px;
+    margin-left: 25px;
+    transition: all 0.3s ease;
+}
+.hamburger{
+    margin-top: 20px;
+    display: none;
+}
+@media (min-width:1024px) and (max-width:1314px){
+    .nav-list{
+        width: calc(50vw - 280px);
+        margin-left: 20px;
+    }
+    .nav-list li a{
+        font-size:14pt
+    }
+    
+}
+@media (max-width:1024px){
+    .nav-list{
+        display: none;
+        width: calc(100% + 60px) !important;
+        margin-top: 70px;
+        height: 220px;
+        z-index: 2147483647;
+        background-image: linear-gradient(to right, #ffb311 , #fb6806);
+    }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+    }
+    .logo{
+      margin: 0;
+      left: 70px;
+    }
+    
+    .unfade{
+        margin-left: -60px !important;
+        position: fixed;
+        display: block;
+        transition: all 0.7s ease;
+    }
+
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+  }
+  .toggle .line2{
+    transition: all 0.7s ease;
+    width:0;
+  }
+  .toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
+  }
+

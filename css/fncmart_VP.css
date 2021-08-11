@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+
+.VP_heading h1{
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Lobster two';
+    color: #fdb721;
+    font-size: 69pt;
+}
+
+.VP_heading h2{
+    font-weight: 150 !important;
+    text-align: center;
+    color: #027cd6;
+    text-transform: uppercase;
+    font-family: 'Microsoft Sans', serif;
+    font-size: 35pt;
+    margin-top: 15px;
+}
+
+.VP_heading hr {
+    width: 50%;
+    margin-left: 25%;
+    border: 0px !important;
+    margin-top: -10px !important;
+    border-bottom: 3px solid #027cd6 !important;
+}
+
+.VP .text{
+    text-decoration: underline;
+    font-size: 25pt;
+    font-family: 'Microsoft Sans', serif;
+    text-align: center;
+    color:#57A822;
+    margin-bottom: 50px;
+}
+
+.VP .card{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.VP .card .card-heading{
+    height: 88px;
+    text-align: center;
+    font-family: 'Microsoft Sans' , serif;
+    font-size: 22pt;
+    border: 1px solid #191919;
+    border-radius: 1.25rem !important;
+    margin: -35px 70px 30px 70px;
+    color: #027cd6;
+    background-color: #e4fbc2;
+    padding: 5px;
+    align-items: center;
+}
+
+.VP .card .card-img{
+    height: 150px !important;
+    width: 296px !important;
+    margin: 30px auto;
+}
+
+.VP .card .card-text{
+    text-align: left !important;
+    padding: 0 30px 30px 30px;
+    font-family: 'Leelawade UI';
+    font-size: 14pt;
+}
+
+@media (min-width:1030px) and (max-width: 1320px){
+    .VP .card{
+        margin: 55px 50px;
+    }
+    .VP .card .card-heading{
+        font-size: 18pt;
+    }
+
+    .VP .card .card-img{
+        height: 120px !important;
+        width: 230px !important;
+        margin: 30px auto;
+    }
+
+    .VP .card .card-text{
+        font-size: 12pt;
+    }
+
+}
+
+@media (min-width:992px) and (max-width: 1030px){
+    .VP .card{
+        margin: 55px 50px;
+    }
+    .VP .card .card-heading{
+        font-size: 16pt;
+    }
+
+    .VP .card .card-img{
+        height: 120px !important;
+        width: 230px !important;
+        margin: 30px auto;
+    }
+
+    .VP .card .card-text{
+        font-size: 12pt;
+    }
+
+}
+
+@media (min-width:576px) and (max-width: 992px){
+    .VP_heading h1{
+        font-size: 40pt;
+    }
+    .VP_heading h2{
+        font-size: 24pt;
+    }
+    .VP .card{
+        margin: 55px 50px;
+    }
+}
+@media (min-width:530px) and (max-width:576px){
+    .VP_heading h1{
+        font-size: 40pt;
+    }
+    .VP_heading h2{
+        font-size: 24pt;
+    }
+    .VP .card .card-heading{
+        font-size: 14pt;
+    }
+    .VP .card .card-text{
+        font-size: 12pt;
+    }
+}
+
+@media (min-width: 490px) and (max-width: 530px){
+    .VP .card .card-heading{
+        height: 64px;
+        font-size: 10pt;
+    }
+    .VP .card .card-img{
+        height: 120px !important;
+        width: auto !important;
+    }
+    .VP .card .card-text{
+        font-size: 10pt;
+    }
+}
+@media (min-width: 320px) and (max-width:490px){
+    .VP .card{
+        margin: 55px auto;
+    }
+    .VP .card .card-heading{
+        height: 50px;
+        font-size: 10pt;
+    }
+    .VP .card .card-img{
+        height: 100px !important;
+        width: auto !important;
+    }
+    .VP .card .card-text{
+        font-size: 10pt;
+    }
+}

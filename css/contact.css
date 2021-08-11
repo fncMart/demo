@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Contact{
+    margin-top: 70px;
+    background: #F3FDE4;
+    font-family: 'Leelawadee UI';
+    line-height: 1.2;
+}
+
+.split-screen{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-top: 30px;
+    font-size:2rem ;
+    font-family: 'Lobster Two';
+    align-items: center;
+    text-align: center;
+}
+
+p{
+    font-family: 'Microsoft Sans Serif';
+    text-align: center;
+}
+
+img{
+    width: 50%;
+    height: auto;
+}
+
+.left, .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+.right form{
+    width: 450px;
+}
+
+form input[type="text"], 
+form input[type="email"], 
+form input[type="subject"], 
+form textarea[type="message"]
+{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 1px solid rgba(112, 112, 112, 0.2);
+    padding: 1em;
+    margin-bottom: 1.25rem;
+    font-size: 0.875rem;
+}
+
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.submit-btn{
+    text-align: center ;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    width: 70%;
+    background: #ffb311;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    border: none;
+    padding: 1rem;
+    border-radius: 80px;
+    letter-spacing: 0.5px;
+}
+
+.submit-btn:hover{
+    background: #fb6806;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 900px) {
+    .split-screen{
+        flex-direction: row;
+        height: 100vh;
+    }
+   
+    .left,
+    .right{
+        display: flex;
+        width: 50%;
+        height: auto;
+    }
+}
+@media screen and (max-width:425px) {
+    .right form{
+        width:330px;
+    }
+
+}

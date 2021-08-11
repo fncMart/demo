@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f2fde4 !important;
+}
+/*solutions-background */
+.solution{
+  background-image: url("../img/Path\ 8285.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-position: left top;
+}
+/*stakeholders background */
+.stakeholders{
+    background-image: linear-gradient(to left, #e4fbc2, #f3fde4);
+}
+
+/* get started section */
+
+.know-more {
+    background-image: url("../img/Group\ 2271.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-position: right bottom;
+    background-color: #7EC4FF;
+    height: 60vh;
+    width: 44vw;
+}
+
+.learn-more {
+    color: #0564b5;
+    line-height: 1;
+    font-size: 46pt;
+}
+
+@media screen and (max-width:1024px) and (min-width:426px) {
+    .learn-more {
+        line-height: 1;
+        font-size: 24pt;
+    }
+    .flex-shrink-1{
+        margin-top: -50px !important;
+    }
+    .boy {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .learn-more {
+        line-height: 0.9;
+        font-size: 43px;
+    }
+    .boy {
+        height: 15vh;
+        width: 26vw;
+    }
+}
+
+@media screen and (min-width:1433px) {
+    .learn-more {
+        font-size: 54pt !important;
+    }
+}
