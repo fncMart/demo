@@ -88,7 +88,7 @@
         display: none;
         width: calc(100% + 60px) !important;
         margin-top: 70px;
-        height: 220px;
+        height: 300px;
         z-index: 2147483647;
         background-image: linear-gradient(to right, #ffb311 , #fb6806);
     }
