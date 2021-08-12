@@ -8,10 +8,14 @@
 
 #lapview {display:block;}
 #mobview {display:none}
+#headlapview {display:block;}
+#headmobview {display:none}
 
 @media all and (max-width: 768px) {
     #lapview {display: none;}
     #mobview {display: block;}
+    #headlapview {display: none;}
+    #headmobview {display: block;}
 }
 
 .backdrop {
