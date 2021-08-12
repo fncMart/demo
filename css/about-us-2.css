@@ -5,6 +5,15 @@
     background: #F3FDE4 !important;
 }
 
+
+#lapview {display:block;}
+#mobview {display:none}
+
+@media all and (max-width: 768px) {
+    #lapview {display: none;}
+    #mobview {display: block;}
+}
+
 .backdrop {
     background: linear-gradient(90deg, rgba(253, 183, 33, 1) 10%, rgba(243, 253, 228, 1) 100%);
     background-repeat: no-repeat;
